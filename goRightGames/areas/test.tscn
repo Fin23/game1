@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://tiles/wall.tres" type="TileSet" id=1]
+[ext_resource path="res://player/player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://player/enemy.tscn" type="PackedScene" id=3]
+
+[node name="Node" type="Node"]
+
+[node name="TileMap" type="TileMap" parent="."]
+scale = Vector2( 0.9, 0.9 )
+tile_set = ExtResource( 1 )
+format = 1
+tile_data = PoolIntArray( 0, 0, 0, 3, 0, 0, 6, 0, 0, 9, 0, 0, 12, 0, 0, 15, 0, 0, 18, 0, 0, 21, 0, 0, 24, 0, 0, 27, 0, 0, 30, 0, 0, 34, 0, 0, 38, 0, 0, 42, 0, 0, 46, 0, 0, 196608, 0, 0, 262190, 0, 0, 393216, 0, 0, 589824, 0, 0, 786432, 0, 0, 851968, 0, 0, 1048576, 0, 0, 1114159, 0, 0, 1179648, 0, 0, 1376256, 0, 0, 1376303, 0, 0, 1572864, 0, 0, 1638447, 0, 0, 1769472, 0, 0, 1900591, 0, 0, 1966080, 0, 0, 2162688, 0, 0, 2162735, 0, 0, 2359296, 0, 0, 2424879, 0, 0, 2555904, 0, 0, 2687023, 0, 0, 2752512, 0, 0, 2949120, 0, 0, 2949167, 0, 0, 3145728, 0, 0, 3211311, 0, 0, 3342336, 0, 0, 3473455, 0, 0, 3538944, 0, 0, 3735552, 0, 0, 3735555, 0, 0, 3735558, 0, 0, 3735561, 0, 0, 3735564, 0, 0, 3735567, 0, 0, 3735570, 0, 0, 3735573, 0, 0, 3735576, 0, 0, 3735579, 0, 0, 3735582, 0, 0, 3735585, 0, 0, 3735588, 0, 0, 3735592, 0, 0, 3735595, 0, 0, 3735599, 0, 0 )
+
+[node name="hunter" parent="." instance=ExtResource( 2 )]
+position = Vector2( 688.604, 1014.9 )
+scale = Vector2( 2, 2 )
+
+[node name="enemy" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1650.63, 1997.73 )
+scale = Vector2( 2, 2 )
+
+[node name="enemy2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 850.533, 2849.85 )
+scale = Vector2( 2, 2 )
+
+[node name="enemy3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 394.688, 1382.8 )
+scale = Vector2( 2, 2 )
+
+[node name="enemy4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1029.63, 678.532 )
+scale = Vector2( 2, 2 )
