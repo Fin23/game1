@@ -1,5 +1,5 @@
 extends KinematicBody2D
-
+#====================== this is for up down side to side movement =================
 var motion = Vector2()
 
 func _process(delta):
@@ -21,3 +21,4 @@ func _process(delta):
 			
 	move_and_slide(motion)
 	pass
+#=============================================================================
