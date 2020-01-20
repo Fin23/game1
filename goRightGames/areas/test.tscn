@@ -17,17 +17,4 @@ position = Vector2( 2727.83, 533.648 )
 scale = Vector2( 10, 10 )
 
 [node name="enemy" parent="." instance=ExtResource( 3 )]
-position = Vector2( 2410.32, 876.912 )
-scale = Vector2( 0.5, 0.5 )
-
-[node name="enemy2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 2593.6, 985.593 )
-scale = Vector2( 0.4, 0.4 )
-
-[node name="enemy3" parent="." instance=ExtResource( 3 )]
-position = Vector2( 2587.84, 338.961 )
-scale = Vector2( 0.6, 0.6 )
-
-[node name="enemy4" parent="." instance=ExtResource( 3 )]
-position = Vector2( 2902.5, 547.543 )
-scale = Vector2( 0.7, 0.7 )
+position = Vector2( 2105, 538.421 )
